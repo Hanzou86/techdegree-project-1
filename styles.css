@@ -69,12 +69,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  background-color: #ff99ff;
+  border-radius: 25px;
+  background-color: hsla(0, 0, 15%, .1);
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: translate(-50px, 0) rotate(-25deg);
 }
 .tag {
   background-color: #efefef;
@@ -97,9 +97,37 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  font-size:30px;
 }
+
+.article {
+  max-width: 500px;
+}
+
+.blog:link {
+  color: black;
+}
+
+.flex a:visited {
+  color: black;
+  text-decoration: none;
+
+}
+
+.blog:hover {
+  background-color:#ff9904;
+  color: black;
+  cursor: pointer;
+}
+
+.blog:active {
+  color: #fff;
+}
+
+
+
 .card:hover {
-  border-color: #ff99ff;
+  border-bottom: 4px solid #ff9904;
 }
 
 ul.skills {
