@@ -104,6 +104,10 @@ header .profile-image:hover {
   max-width: 1500px;
 }
 
+.card-img {
+  width: 100%;
+}
+
 a:link .blog {
   color: black;
 }
